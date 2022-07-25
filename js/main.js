@@ -41,7 +41,7 @@ const misProductos = [
      }
     ];
 alert ('Bienvenidos a la tienda Proyect-Hardware');
-entradaProducto = prompt ('Ingrese el producto que desea comprar: \n 0-Procesadores \n 1-Mothers \n 2-Discos Rigidos');
+entradaProducto = prompt ('Ingrese el producto que desea comprar: \n 0-Procesadores \n 1-Mothers \n 2-Almacenamiento');
 if (entradaProducto >= 0 && entradaProducto == 0){
     const productos = misProductos.filter((producto) => {
         return producto.tipo === 'procesador';
